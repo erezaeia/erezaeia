@@ -111,7 +111,7 @@ function messagebox(msg, win){
 	saveArray(fieldName0, save_v,fieldName1, save_x,fieldName2, acc_keys,fieldName3, brake_keys,fieldName4, battstatus, GameId, username,count,fieldName5, cTime);
 	if (count==10){
 		alert('You are done with this experiment !');
-		window.location.href='noAISurvey/noAISurvey.html';
+		window.location.href='noAISurvey/index.html';
 	}
 	else{
 		let message =  "Iteration " + count + " is done!";
