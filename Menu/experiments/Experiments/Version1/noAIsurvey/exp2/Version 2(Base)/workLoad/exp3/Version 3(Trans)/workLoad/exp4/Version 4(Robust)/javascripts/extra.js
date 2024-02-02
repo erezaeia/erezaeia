@@ -102,8 +102,11 @@ function messagebox(msg, win){
 	/////// Save battstatus //////////
 	const fieldName4= 'battstatus';
 	console.log("This is battstatus:",battstatus);
+	 /////// cTime /////////////
+	 const fieldName5= 'cTime';
+	 console.log("This is cTime:",cTime);
 
-	saveArray(fieldName0, save_v,fieldName1, save_x,fieldName2, acc_keys,fieldName3, brake_keys,fieldName4, battstatus, GameId, username, count4);
+	saveArray(fieldName0, save_v,fieldName1, save_x,fieldName2, acc_keys,fieldName3, brake_keys,fieldName4, battstatus, GameId, username, count4, fieldName5, cTime);
 	if (count4==5){
 		alert('You are done with this experiment !');
 		window.location.href='workLoad/workLoad.html';
